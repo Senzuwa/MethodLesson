@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<String> MleagerList = List.of("nakabayashi","suzuki.Y", "honda","mizuhara","kobayashi","suzuki.T","setokuma");
+        List<String> MleagerList = List.of("nakabayashi","suzuki.Y", "honda","mizuhara","kobayashi","suzuki.T","setokuma","katumata");
 
         MleagerList.stream().map(String::toUpperCase).forEach(System.out::println);
         MleagerList.stream().map(String::toLowerCase).forEach(System.out::println);
